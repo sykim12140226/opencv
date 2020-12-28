@@ -61,7 +61,7 @@ h, w = src.shape[:2]
 dw = 500
 dh = round(dw*297/210)
 
-# 모서리 점들의 좌표, 드래그 상태 여부
+# 모서리 점들의 좌표, 드래그 상태 여부 gg
 srcQuad = np.array(
     [[30, 30], [30, h - 30], [w - 30, h - 30], [w - 30, 30]], np.float32)
 dstQuad = np.array(
